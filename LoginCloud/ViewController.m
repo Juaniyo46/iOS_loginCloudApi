@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DentroViewController.h"
 
 @interface ViewController ()
 
@@ -42,7 +43,17 @@
         NSLog(@"%@",resCode);
         
         if ([resCode isEqualToNumber:@1]){
+            
+            //success
             NSLog(@"Login Correcto");
+            
+            //Cambiar de pantalla al hacer login
+            UIStoryboard * storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            DentroViewController * dvc = (DentroViewController *) [storyBoard instantiateViewControllerWithIdentifier:@"dentroViewController"];
+            dispatch_async(dispatch_get_main_queue(), ^{dvc.modalPresentationStyle = UIModalPresentationFullScreen;
+                [self presentViewController:dvc animated:YES completion:nil];
+            });
+            
         }else {
             
             dispatch_async(dispatch_get_main_queue(), ^{

@@ -16,6 +16,7 @@
 		28245654236201AC00542A8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28245653236201AC00542A8E /* main.m */; };
 		2824565E236201AC00542A8E /* LoginCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2824565D236201AC00542A8E /* LoginCloudTests.m */; };
 		28245669236201AC00542A8E /* LoginCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28245668236201AC00542A8E /* LoginCloudUITests.m */; };
+		282456782362135B00542A8E /* DentroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282456772362135B00542A8E /* DentroViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		28245664236201AC00542A8E /* LoginCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28245668236201AC00542A8E /* LoginCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginCloudUITests.m; sourceTree = "<group>"; };
 		2824566A236201AC00542A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282456762362134400542A8E /* DentroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DentroViewController.h; sourceTree = "<group>"; };
+		282456772362135B00542A8E /* DentroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DentroViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				2824564F236201AC00542A8E /* LaunchScreen.storyboard */,
 				28245652236201AC00542A8E /* Info.plist */,
 				28245653236201AC00542A8E /* main.m */,
+				282456762362134400542A8E /* DentroViewController.h */,
+				282456772362135B00542A8E /* DentroViewController.m */,
 			);
 			path = LoginCloud;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282456782362135B00542A8E /* DentroViewController.m in Sources */,
 				28245649236201AA00542A8E /* ViewController.m in Sources */,
 				28245643236201AA00542A8E /* AppDelegate.m in Sources */,
 				28245654236201AC00542A8E /* main.m in Sources */,
