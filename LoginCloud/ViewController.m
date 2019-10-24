@@ -18,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //Descargar imagen desde el servidor
+    
+    NSString *urlImgStr = @"https://media.licdn.com/dms/image/C4E0BAQFu48fnxsSkEg/company-logo_200_200/0?e=2159024400&v=beta&t=XTnm9bY0TBRzEw-1i5D8xKsDeSsAzlZ1e6LLw6LzgRg";
+    NSURL *imgUrl = [NSURL URLWithString:urlImgStr];
+    
+    NSData * imgData = [[NSData alloc] initWithContentsOfURL:imgUrl];
+    
+    self.imagen.image = [UIImage imageWithData:imgData];
+    
 }
 
 - (IBAction)loginBtn:(id)sender{

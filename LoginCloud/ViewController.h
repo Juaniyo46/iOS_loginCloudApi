@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *passText;
 - (IBAction)loginBtn:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
 
 @end
 

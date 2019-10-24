@@ -58,6 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="imagen" destination="yjT-0Q-GFk" id="yaG-fO-0xz"/>
                         <outlet property="passText" destination="QIR-rH-C9K" id="0UK-pd-G9M"/>
                         <outlet property="userText" destination="YJT-Aa-Yuz" id="Xab-4e-anV"/>
                     </connections>
